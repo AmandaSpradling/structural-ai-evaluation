@@ -126,3 +126,10 @@ Passing requires:
 - State transfer of critical constraints
 - Downstream application of constraints
 - Appropriate clarification behavior when state is missing
+
+## Probe Summary Table
+
+| Probe Class                              | Transformation Type              | What Is Scored                               | Common Failure Signature                                      |
+|------------------------------------------|----------------------------------|----------------------------------------------|---------------------------------------------------------------|
+| Invariant Preservation Under Transformation | Summarize, optimize, reformulate | Constraint persistence across transformation | Invariant omitted, contradicted, or made operationally irrelevant |
+| Delegation Drift in Multi-Agent Systems  | Agent handoff / task delegation  | State transfer + downstream constraint use   | Constraint dropped during handoff; downstream violation; no clarification requested |
