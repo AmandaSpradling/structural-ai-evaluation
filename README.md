@@ -1,3 +1,5 @@
+This repository explores structural evaluation methods for LLM and multi-agent systems. Instead of scoring isolated outputs, the probes test whether models preserve constraints, state, and invariants across transformations, delegation, and multi-step reasoning.
+
 # structural-ai-evaluation
 
 Evaluation frameworks and probe templates for detecting structural failure modes in LLM and multi-agent systems — including invariant violations, constraint drift, and global incoherence despite local correctness.
