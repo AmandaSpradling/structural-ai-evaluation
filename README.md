@@ -164,12 +164,7 @@ Failure occurs when constraints are **dropped or violated without detection**.
 
 ---
 
-## Probe Summary
 
-| Probe Class | Transformation Type | What Is Scored | Common Failure Signature |
-|-------------|--------------------|----------------|--------------------------|
-| Invariant Preservation Under Transformation | Summarize, optimize, reformulate | Constraint persistence across transformation | Invariant omitted, contradicted, or operationally irrelevant |
-| Delegation Drift in Multi-Agent Systems | Agent handoff / task delegation | State transfer + downstream constraint use | Constraint dropped during handoff; downstream violation; no clarification requested |
 ## Probe Summary Table
 
 | Probe Class                              | Transformation Type              | What Is Scored                               | Common Failure Signature                                      |
